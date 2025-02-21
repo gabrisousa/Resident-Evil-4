@@ -1,0 +1,43 @@
+@media (max-width: 1338px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        
+
+    }
+
+    .caixa-mae {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Header {
+        display: none;
+    }
+
+    .caixa-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plataformas {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
