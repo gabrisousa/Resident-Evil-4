@@ -5,7 +5,7 @@ function fotoSobre() {
       fotoSobre.src = "./src/imagens/about_bg-about-sp.jpg";
 
     } else {
-      video.src = "./src/imagens/fundo-sobre.jpg";
+      video.src = "./src/imagens/fundo-sobre.jp";
     }
   }
 
