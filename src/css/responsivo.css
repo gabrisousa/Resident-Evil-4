@@ -1,0 +1,242 @@
+@media (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+        
+        
+
+    }
+
+    .caixa-mae {
+        /* background-color: red; */
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Header {
+        display: none;
+    }
+
+    .caixa-inicio {
+        padding: 0;
+        width: 100%;
+        /* background-color: aqua; */
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-principal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aquamarine; */
+        width: 390px;
+        left: 0;
+    }
+
+    .logo-principal img {
+        /* background-color: black; */
+        height: 70px;
+        width: 350px;
+    }
+
+    .logo-principal h1 {
+        /* background-color: red; */
+        
+        margin-left: -235px;
+        font-size: 30px;
+    }
+
+    .plataformas {
+        /* background-color: blue; */
+        left: 0;
+        right: 0;
+        top: -155px;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vendas {
+        /* background-color: brown; */
+        
+        
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        
+    }
+    .plataformas {
+        /* background-color: beige; */
+        left: 0;
+        
+    }
+
+    .plataformas img {
+        /* background-color: blueviolet; */
+        
+        height: 18px;
+    }
+
+    .caixa-principal {
+        padding: 0;
+        /* background-color: blue; */
+        display: flex;
+        width: 600px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .caixa-conteudo-baixavel {
+        /* background-color: burlywood; */
+        display: flex;
+        margin-left: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .conteudo {
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .titulo-conteudo {
+        /* background-color: black; */
+        left: -197px;
+        font-size: 25px;
+        top: 159px;
+        
+    }
+
+    .conteudo img {
+        /* background-color: red; */
+        height: 250px;
+        width: 350px;
+    }
+
+    .caixa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    
+    }
+
+    .caixa-sobre {
+        
+        width: 467px;
+        
+        
+    }
+
+    .caixa-texto {
+        
+        
+        left: 16px;
+        width: 450px;
+        
+        
+        top: -450px;
+        
+        
+    }
+
+    .caixa-texto h1 {
+        font-size:  35px;
+       
+        width: 80px;
+
+    }
+
+    .caixa-texto h2 {
+        font-size:  50px;
+        width: 300px;
+
+    }
+
+    .caixa-texto p {
+        
+        width: 410px;
+        font-size: 15px;
+        
+       
+        
+        
+        
+    }
+
+    .fotos-sobre {
+        
+        top: -380px;
+        gap: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: aqua; */
+    }
+
+    .fotos-sobre img {
+        height: 248px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: brown; */
+    }
+
+    .leon-and-ashley {
+        height: 797px;
+    }
+
+    .caixa-texto {
+        
+    }
+
+    .caixa-texto {
+       
+    }
+
+    
+
+    .history {
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: beige; */
+
+
+
+
+        
+    
+    }
+
+    .historia {
+
+        
+        /* background-color: black; */
+    }
+
+    
+    
+}
