@@ -296,11 +296,21 @@ function playVideoNegociação () {
 function clicarBotao8 () {
     let OqueÉ = document.querySelector(".caixa-oque-é");
 
-    OqueÉ.style.display = "block";
-    bonus.style.display = "none";
-    modo.style.display = "none";
+    document.querySelector(".caixa-oque-é").style.display = "block";
+    document.querySelector(".caixa-bonus-de-tempo").style.display = "none";
+    document.querySelector(".caixa-modo-caotico").style.display = "none";
+
+    document.querySelector(".botoes1-merc").style.backgroundColor = "rgb(187, 16, 32)";
+    document.querySelector(".botoes2-merc").style.backgroundColor = "rgb(93, 11, 19)";
+    document.querySelector(".botoes3-merc").style.backgroundColor = "rgb(93, 11, 19)";
+
+    document.querySelector(".botoes1-merc").style.transform = "scaley(1.5)";
+    document.querySelector(".botoes2-merc").style.transform = "scaley(1)";
+    document.querySelector(".botoes3-videos").style.transform = "scaley(1)";
 
 
+    
+    
 
 }
 
@@ -309,11 +319,19 @@ function clicarBotao8 () {
 function clicarBotao9 () {
     let bonus = document.querySelector(".caixa-bonus-de-tempo");
 
-    bonus.style.display = "block";
-    oqueÉ.style.display = "none";
-    modo.style.display = "none";
+    document.querySelector(".caixa-oque-é").style.display = "none";
+    document.querySelector(".caixa-bonus-de-tempo").style.display = "block";
+    document.querySelector(".caixa-modo-caotico").style.display = "none";
 
+    document.querySelector(".botoes1-merc").style.backgroundColor = "rgb(93, 11, 19)"
+    document.querySelector(".botoes2-merc").style.backgroundColor = "rgb(187, 16, 32)";;
+    document.querySelector(".botoes3-merc").style.backgroundColor = "rgb(93, 11, 19)";
 
+    document.querySelector(".botoes1-merc").style.transform = "scaley(1)";
+    document.querySelector(".botoes2-merc").style.transform = "scaley(1.5)";
+    document.querySelector(".botoes3-videos").style.transform = "scaley(1)";
+
+    
 
 }
 
@@ -322,11 +340,17 @@ function clicarBotao9 () {
 function clicarBotao10 () {
     let modo = document.querySelector(".caixa-modo-caotico");
 
-    modo.style.display = "block";
-    bonus.style.display = "none";
-    oqueÉ.style.display = "none";
+    document.querySelector(".caixa-oque-é").style.display = "none";
+    document.querySelector(".caixa-bonus-de-tempo").style.display = "none";
+    document.querySelector(".caixa-modo-caotico").style.display = "block";
 
+    document.querySelector(".botoes1-merc").style.backgroundColor = "rgb(93, 11, 19)"
+    document.querySelector(".botoes2-merc").style.backgroundColor = "rgb(93, 11, 19)";;
+    document.querySelector(".botoes3-merc").style.backgroundColor = "rgb(187, 16, 32)";
 
+    document.querySelector(".botoes1-merc").style.transform = "scaley(1)";
+    document.querySelector(".botoes2-merc").style.transform = "scaley(1)";
+    document.querySelector(".botoes3-videos").style.transform = "scaley(1.5)";
 
 }
 

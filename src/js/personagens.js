@@ -21,6 +21,10 @@ window.onload = function aoAbrir () {
     selectedLeon.classList.remove("grayscale");
     selectedLeon.classList.add("hover");
 
+
+    document.querySelector(".botoes1-merc").style.backgroundColor = "rgb(187, 16, 32)";
+    document.querySelector(".botoes1-merc").style.transform = "scaley(1.5)";
+
     
 
 
