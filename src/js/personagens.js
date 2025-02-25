@@ -607,7 +607,7 @@ function repetirGanado () {
     setTimeout(() => {
     
     
-        img58.classList.add("hidden");
+        img8.classList.add("hidden");
     
     
         setTimeout(() => {
