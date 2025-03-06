@@ -1,97 +1,84 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-
-
-
-
 
 body {
-    font-family: "Garamond", sans-serif;
-    background-image: url(../imagens/bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    transition: background 1s ease-in-out;
+  font-family: "Garamond", sans-serif;
+  background-image: url(../imagens/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: background 1s ease-in-out;
 }
 
-
 .video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 1000;
-    transition: opacity 2s ease-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1000;
+  transition: opacity 2s ease-out;
 }
 
 #introVideo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Preenche o contêiner mantendo a proporção */
-    transform: translate(-50%, -50%);
-    z-index: 1001;
-    background-color: black;
-    
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Preenche o contêiner mantendo a proporção */
+  transform: translate(-50%, -50%);
+  z-index: 1001;
+  background-color: black;
 }
 
-
-
 .video-fundo {
-    width: 100%;
-    height: 100%;
-    top: 0;
-
+  width: 100%;
+  height: 100%;
+  top: 0;
 }
 
 .video-fundo video {
-    z-index: -2;
-    image-rendering: pixelated;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    right: 0;
+  z-index: -2;
+  image-rendering: pixelated;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
-
-
-
 .header {
-    z-index: 2;
-    width: 600px;
-    display: flex;
-    gap: 15px;
-    position: fixed;
+  z-index: 2;
+  width: 600px;
+  display: flex;
+  gap: 15px;
+  position: fixed;
 }
 
 .Header {
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    top: 35px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: 35px;
 }
 
 .Header a {
-    text-decoration: none;
-    cursor: pointer;
-    color: white;
-    font-weight: normal;
-    font-family: "Teko-Variable";
-    font-size: 24px;
-    position: relative;
-    left: 70px;
-    text-shadow: 2px 2px 2px black;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: normal;
+  font-family: "Teko-Variable";
+  font-size: 24px;
+  position: relative;
+  left: 70px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .top:hover,
@@ -100,1224 +87,1032 @@ body {
 .localizacao:hover,
 .jogabilidade:hover,
 .dlc:hover {
-    color: rgb(187, 16, 32);
-    transition: 0.3s ease-in-out;
+  color: rgb(187, 16, 32);
+  transition: 0.3s ease-in-out;
 }
-
-
-
 
 .caixa-inicio {
-    width: 100%;
-    height: 100vh;
-    padding: 40px;
-    display: flex;
-    align-items: flex-end;
-
-
-
+  width: 100%;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  align-items: flex-end;
 }
-
-
 
 .caixa-principal {
-    padding: 50px;
-
+  padding: 50px;
 }
-
 
 .logo-principal {
-
-    width: 800px;
-    height: 290px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 160px;
-    bottom: 110px;
-
+  width: 800px;
+  height: 290px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 160px;
+  bottom: 110px;
 }
 
-
 .logo-principal h1 {
-    font-size: 55px;
-    color: rgb(187, 16, 32);
-    margin-left: 15px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-
+  font-size: 55px;
+  color: rgb(187, 16, 32);
+  margin-left: 15px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
 
 .logo-principal img {
-    height: 155px;
-
+  height: 155px;
 }
 
 .vendas {
-    background-color: rgb(0, 0, 0, .6);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: -617px;
-    top: -504px;
-    width: 300px;
-    height: 90px;
-    gap: 1px;
-    border-top: 3px solid rgb(187, 16, 32);
-    border-bottom: 3px solid rgb(187, 16, 32);
-
+  background-color: rgb(0, 0, 0, 0.6);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  right: -617px;
+  top: -504px;
+  width: 300px;
+  height: 90px;
+  gap: 1px;
+  border-top: 3px solid rgb(187, 16, 32);
+  border-bottom: 3px solid rgb(187, 16, 32);
 }
 
 .vendas h1 {
-    line-height: 1;
-    color: white;
-    font-size: 25px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
+  line-height: 1;
+  color: white;
+  font-size: 25px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
 
 .plataformas {
-    display: flex;
+  display: flex;
 
-    gap: 20px;
+  gap: 20px;
 
-    position: relative;
-    top: -50px;
-    left: -845px;
+  position: relative;
+  top: -50px;
+  left: -845px;
 }
 
 .Plataformas {
-    height: 31px;
-
-
+  height: 31px;
 }
 
 span {
-    color: rgb(187, 16, 32);
-    font-size: 29px;
+  color: rgb(187, 16, 32);
+  font-size: 29px;
 }
-
-
 
 .caixa-conteudo-baixavel {
-    height: 100vh;
-    display: flex;
-    justify-content: flex-end;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
 }
 
-
-
 .conteudo img {
-    border-bottom: 1px solid rgb(187, 16, 32);
-    width: 455px;
-    height: 310px;
+  border-bottom: 1px solid rgb(187, 16, 32);
+  width: 455px;
+  height: 310px;
 }
 
 .SW:hover {
-    filter: brightness(1.2);
-    transition: 1s ease-in-out;
+  filter: brightness(1.2);
+  transition: 1s ease-in-out;
 }
 
 .MC:hover {
-    filter: brightness(1.2);
-    transition: 1s ease-in-out;
+  filter: brightness(1.2);
+  transition: 1s ease-in-out;
 }
 
 .titulo-conteudo {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    color: rgb(187, 16, 32);
-    font-size: 33px;
-    position: relative;
-    left: -55px;
-    top: 210px;
-    writing-mode: vertical-lr;
-
-
-}
-
-
-@font-face {
-    font-family: "Garamond";
-    src: url(../fontes/Garamond.ttf);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  color: rgb(187, 16, 32);
+  font-size: 33px;
+  position: relative;
+  left: -55px;
+  top: 210px;
+  writing-mode: vertical-lr;
 }
 
 @font-face {
-    font-family: "Teko-Variable";
-    src: url(../fontes/Teko-Variable.ttf);
+  font-family: "Garamond";
+  src: url(../fontes/Garamond.ttf);
 }
 
-
+@font-face {
+  font-family: "Teko-Variable";
+  src: url(../fontes/Teko-Variable.ttf);
+}
 
 .caixa-sobre {
-    background-color: black;
-    height: 1900px;
+  background-color: black;
+  height: 1900px;
 }
 
-
-
 .fotos-sobre {
-
-
-    position: relative;
-    top: -676px;
-    gap: 44px;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  top: -676px;
+  gap: 44px;
+  display: flex;
+  justify-content: center;
 }
 
 .fotos-sobre img {
-    height: 270px;
+  height: 270px;
 }
 
 .history {
-
-
-
-
-    position: relative;
-    top: -680px;
-
-
+  position: relative;
+  top: -680px;
 }
 
 .historia {
-    height: 687px;
-
-
+  height: 687px;
 }
 
 .texto-historia {
-    position: relative;
-    top: -595px;
-    left: 180px;
-    width: 1405px;
+  position: relative;
+  top: -595px;
+  left: 180px;
+  width: 1405px;
 }
 
 .texto-historia h1 {
-    color: red;
+  color: red;
 }
 
 .texto-historia p {
-    color: white;
+  color: white;
 }
 
 .historia-p-um {
-    color: white;
-    line-height: 5.5;
-
-
+  color: white;
+  line-height: 5.5;
 }
 
 .historia-p-dois {
-    color: white;
-    list-style: 5.5;
-
-
+  color: white;
+  list-style: 5.5;
 }
 
 .historia-p-tres {
-    color: white;
-    line-height: 3;
-
-
+  color: white;
+  line-height: 3;
 }
 
 .historia-p-quatro {
-    color: white;
-    line-height: 5.5;
-
-
+  color: white;
+  line-height: 5.5;
 }
 
 .historia-p-cinco {
-    color: white;
-    line-height: 5.5;
-
+  color: white;
+  line-height: 5.5;
 }
 
 .historia-p-seis {
-    color: white;
-    line-height: 3;
+  color: white;
+  line-height: 3;
 }
 
 .historia-p-sete {
-    color: white;
+  color: white;
 }
 
 .historia-p-oito {
-    color: white;
+  color: white;
 }
 
-
-
-
-
 .leon-and-ashley {
-    height: 1004px;
+  height: 1004px;
 }
 
 .caixa {
-    display: flex;
-    flex-direction: column;
-
-
+  display: flex;
+  flex-direction: column;
 }
 
 .caixa h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 50px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 50px;
 }
 
 .caixa h2 {
-    color: white;
-    margin-top: 60px;
-    font-size: 70px;
-
+  color: white;
+  margin-top: 60px;
+  font-size: 70px;
 }
 
 .caixa-texto .p-um {
-    margin-top: 50px;
-    color: white;
-    line-height: 3.4;
-
-
+  margin-top: 50px;
+  color: white;
+  line-height: 3.4;
 }
 
 .caixa-texto .p-dois {
-    margin-top: 10px;
-    color: white;
-    line-height: 2.2;
+  margin-top: 10px;
+  color: white;
+  line-height: 2.2;
 }
 
 .caixa-texto {
-    width: 855px;
-    position: relative;
-    left: 170px;
-    top: -890px;
+  width: 855px;
+  position: relative;
+  left: 170px;
+  top: -890px;
 }
 
 .personagens {
-    margin-top: 100px;
-    height: 28vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  margin-top: 100px;
+  height: 28vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .personagem {
-    height: 143px;
-    width: 936px;
-    position: relative;
-    right: -104px;
-
-
-
+  height: 143px;
+  width: 936px;
+  position: relative;
+  right: -104px;
 }
 
-
-
 #ashley {
-    display: none;
+  display: none;
 }
 
 #luis {
-    display: none;
-
+  display: none;
 }
 
 #ada {
-    display: none;
-
+  display: none;
 }
 
 #ganado {
-    display: none;
-
-
+  display: none;
 }
 
 #salvador {
-    display: none;
-
+  display: none;
 }
 
 #bitorez {
-    display: none;
-
+  display: none;
 }
 
 #salazar {
-    display: none;
-
+  display: none;
 }
 
 #hunnigan {
-    display: none;
-
+  display: none;
 }
 
 #mercador {
-    display: none;
-
-
+  display: none;
 }
 
 #krauser {
-    display: none;
-
-
+  display: none;
 }
 
 #saddler {
-    display: none;
-
-
+  display: none;
 }
 
 #fanatico {
-    display: none;
-
-
+  display: none;
 }
 
-
-
-
-
 #image1 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-
-
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
 #image2 {
-    left: 50px;
-
-
-
+  left: 50px;
 }
 
 #image3 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-
-
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
 #image5 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
 #image8 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
 #image12 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
 #image16 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
 #image18 {
-    transition: opacity 1s ease-in-out;
-    position: absolute;
-
+  transition: opacity 1s ease-in-out;
+  position: absolute;
 }
 
-
-
-
-
-
-
 .hover {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
-        inset 0 0 50px rgba(255, 255, 255, 0.2);
-    transition: 0.2s ease-in-out;
-    filter: grayscale(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2),
+    inset 0 0 50px rgba(255, 255, 255, 0.2);
+  transition: 0.2s ease-in-out;
+  filter: grayscale(0);
 }
 
 .grayscale {
-    filter: grayscale(10);
+  filter: grayscale(10);
 }
 
-
 .hidden {
-    opacity: 0;
+  opacity: 0;
 }
 
 .transition {
-    transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
-
 .leon-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 45px;
-    text-shadow: 2px 2px 2px black;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .ashley-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 185px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 185px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .luis-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 344px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 344px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .ada-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 469px;
-    text-shadow: 2px 2px 2px black;
-
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 469px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .ganado-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 616px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 616px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .salvador-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 706px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 706px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .bitorez-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50px;
-    left: 847px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50px;
+  left: 847px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .salazar-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 120px;
-    left: 55px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 120px;
+  left: 55px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .hunnigan-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 120px;
-    left: 180px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 120px;
+  left: 180px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .mercador-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 120px;
-    left: 345px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 120px;
+  left: 345px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .krauser-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 120px;
-    left: 468px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 120px;
+  left: 468px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .saddler-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 120px;
-    left: 583px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 120px;
+  left: 583px;
+  text-shadow: 2px 2px 2px black;
 }
 
 .fanatico-name {
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 120px;
-    left: 754px;
-    text-shadow: 2px 2px 2px black;
-
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 120px;
+  left: 754px;
+  text-shadow: 2px 2px 2px black;
 }
 
-
-
-
-
-
 .personagem img {
-    border: gray solid 0.1px;
-    border-bottom: 0.1px solid rgb(187, 16, 32);
-    height: 65px;
-    width: 130px;
-    cursor: pointer;
+  border: gray solid 0.1px;
+  border-bottom: 0.1px solid rgb(187, 16, 32);
+  height: 65px;
+  width: 130px;
+  cursor: pointer;
 }
 
 .titulo-personagem {
-    position: relative;
-    right: -50px;
-
+  position: relative;
+  right: -50px;
 }
 
 .titulo-personagem h1 {
-    color: rgb(187, 16, 32);
-    font-size: 60px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
+  color: rgb(187, 16, 32);
+  font-size: 60px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
 
-
-
-
 .leon-biography {
-    display: flex;
+  display: flex;
 }
 
 .ashley-biography {
-
-
-    display: flex;
-
-
+  display: flex;
 }
-
 
 .picture-leon img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
-
 .picture-ashley img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-luis img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-ada img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-ganado img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-salvador img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-bitorez img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-salazar img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-hunnigan img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-mercador img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-krauser img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-saddler img {
-
-
-    height: 581px;
+  height: 581px;
 }
 
 .picture-fanatico img {
-
-
-    height: 581px;
+  height: 581px;
 }
-
 
 .biografia {
-    position: absolute;
-    left: 1000px;
-    bottom: -3600px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3600px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
-
 .biografia-ashley {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-luis {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-ada {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
-
 .biografia-ganado {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-salvador {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-bitorez {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-salazar {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-hunnigan {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-mercador {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-krauser {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-saddler {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia-fanatico {
-    position: absolute;
-    left: 1000px;
-    bottom: -3560px;
-    height: 500px;
-    width: 635px;
-    z-index: 1;
-    line-height: 2.0;
-    right: 800px;
-    padding: 40px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+  position: absolute;
+  left: 1000px;
+  bottom: -3560px;
+  height: 500px;
+  width: 635px;
+  z-index: 1;
+  line-height: 2;
+  right: 800px;
+  padding: 40px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .biografia h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-ashley h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-luis h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-ada h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-ganado h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-salvador h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-bitorez h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-salazar h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-hunnigan h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-mercador h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-krauser h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-saddler h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
 .biografia-fanatico h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 80px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 80px;
 }
 
-
-
 .biografia p {
-    color: white
+  color: white;
 }
 
 .biografia-ashley p {
-    color: white
+  color: white;
 }
 
 .biografia-luis p {
-    color: white
+  color: white;
 }
 
 .biografia-ada p {
-    color: white
+  color: white;
 }
 
 .biografia-ganado p {
-    color: white
+  color: white;
 }
 
 .biografia-salvador p {
-    color: white
+  color: white;
 }
 
 .biografia-bitorez p {
-    color: white
+  color: white;
 }
 
 .biografia-salazar p {
-    color: white
+  color: white;
 }
 
 .biografia-hunnigan p {
-    color: white
+  color: white;
 }
 
 .biografia-mercador p {
-    color: white
+  color: white;
 }
 
 .biografia-krauser p {
-    color: white
+  color: white;
 }
 
 .biografia-saddler p {
-    color: white
+  color: white;
 }
 
 .biografia-fanatico p {
-    color: white
+  color: white;
 }
 
-
 .location {
-    width: 100%;
-    height: 100vh;
-    margin-top: 160px;
-
+  width: 100%;
+  height: 100vh;
+  margin-top: 160px;
 }
 
 .titulo-location {
-    gap: 45px;
-    display: flex;
-    align-items: center;
+  gap: 45px;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-location h1 {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 60px;
-    color: rgb(187, 16, 32);
-    margin-left: 155px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 60px;
+  color: rgb(187, 16, 32);
+  margin-left: 155px;
 }
 
 .titulo-location p {
-    position: relative;
-    left: -25px;
-    border-left: 1px solid white;
-    width: 390px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 63px;
-    color: white;
+  position: relative;
+  left: -25px;
+  border-left: 1px solid white;
+  width: 390px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 63px;
+  color: white;
 }
 
 .imagem-ativa {
-    height: 580px;
-    position: relative;
-
+  height: 580px;
+  position: relative;
 }
 
 .imagem2 {
-    position: relative;
-    height: 580px;
+  position: relative;
+  height: 580px;
 }
 
-
-
 .imagem3 {
-    display: none;
-    position: relative;
-    height: 580px;
+  display: none;
+  position: relative;
+  height: 580px;
 }
 
 .imagem4 {
-    display: none;
-    position: relative;
-    height: 580px;
-
-
+  display: none;
+  position: relative;
+  height: 580px;
 }
 
 .imagem5 {
-    display: none;
-    position: relative;
-    height: 580px;
+  display: none;
+  position: relative;
+  height: 580px;
 }
 
 .imagem6 {
-    display: none;
+  display: none;
 
-    position: relative;
-    height: 580px;
-
+  position: relative;
+  height: 580px;
 }
 
-
 .imagem7 {
-    display: none;
-    position: relative;
-    height: 580px;
-
+  display: none;
+  position: relative;
+  height: 580px;
 }
 
 .imagem72 {
-    position: relative;
-    height: 580px;
-
+  position: relative;
+  height: 580px;
 }
-
-
 
 .imagem-ativa2 {
-    display: none;
-    position: relative;
-    height: 580px;
-
+  display: none;
+  position: relative;
+  height: 580px;
 }
-
-
 
 .imagens-carrossel {
-    gap: 35px;
-    display: flex;
-    justify-content: center;
+  gap: 35px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
 }
 
-
-
 .botoes-carrossel {
-    display: flex;
-    width: 1585px;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    margin-top: 10px;
-    gap: 15px;
-
-
+  display: flex;
+  width: 1585px;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin-top: 10px;
+  gap: 15px;
 }
 
 .botoes-carrossel .botao2,
@@ -1326,1548 +1121,1166 @@ span {
 .botao5,
 .botao6,
 .botao7 {
-    background-color: rgb(93, 11, 19);
-    width: 53px;
-    height: 3.5px;
-    border: none;
-    cursor: pointer;
+  background-color: rgb(93, 11, 19);
+  width: 53px;
+  height: 3.5px;
+  border: none;
+  cursor: pointer;
 }
 
-
-
 .botao-selecionado {
-    background-color: rgb(93, 11, 19);
-    width: 53px;
-    height: 3.5px;
-    border: none;
-    cursor: pointer;
-
+  background-color: rgb(93, 11, 19);
+  width: 53px;
+  height: 3.5px;
+  border: none;
+  cursor: pointer;
 }
 
 .botoes-carrossel .seta {
-    cursor: pointer;
-    color: rgb(187, 16, 32);
-    background: transparent;
-    border: none;
-    font-size: 35px;
+  cursor: pointer;
+  color: rgb(187, 16, 32);
+  background: transparent;
+  border: none;
+  font-size: 35px;
 }
 
 .botoes-carrossel .seta2 {
-    cursor: pointer;
-    color: rgb(187, 16, 32);
-    background: transparent;
-    border: none;
-    font-size: 35px;
+  cursor: pointer;
+  color: rgb(187, 16, 32);
+  background: transparent;
+  border: none;
+  font-size: 35px;
 }
-
 
 .carrossel {
-
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
-
-
 .caixa-jogabilidade {
-
-
-    color: white;
-
+  color: white;
 }
 
 .caixa-jogabilidade h1 {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 60px;
-    margin-left: 155px;
-    color: rgb(187, 16, 32);
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 60px;
+  margin-left: 155px;
+  color: rgb(187, 16, 32);
 }
 
 .textoJogabilidade {
-    border-left: 1px solid white;
-    margin-left: 180px;
-    line-height: 1.9;
-
+  border-left: 1px solid white;
+  margin-left: 180px;
+  line-height: 1.9;
 }
 
 .textoJogabilidade p {
-    margin-left: 27px;
-
-
+  margin-left: 27px;
 }
 
-
-
-
-
 .video-camera {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-camera-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
 .imagem-nene {
-    display: flex;
-    justify-content: center;
-    margin-left: 30%;
-    height: 485px;
-    display: none;
+  display: flex;
+  justify-content: center;
+  margin-left: 30%;
+  height: 485px;
+  display: none;
 }
 
 .botao-video-camera {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-camera {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
 }
 
 .play-VideoCamera {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoCamera i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoCamera {
-    margin-left: 130px;
-    height: 485px;
-    width: 862px;
+  margin-left: 130px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-camera {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-camera h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 155px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 155px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-camera h2 {
-    font-size: 34px;
-    margin-left: 155px;
-    color: white;
+  font-size: 34px;
+  margin-left: 155px;
+  color: white;
 }
 
 .texto-camera p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 155px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 155px;
 }
 
-
 .video-camera video {
-    position: absolute;
+  position: absolute;
 
-    height: 485px;
-
-
+  height: 485px;
 }
 
 .botoes-videos {
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-    position: relative;
-    left: 215px;
-    justify-content: center;
-    height: 50px;
-    width: 300px;
-    gap: 15px;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  position: relative;
+  left: 215px;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  gap: 15px;
 }
 
 .botoes1-videos,
 .botoes2-videos,
 .botoes3-videos {
-    background-color: rgb(93, 11, 19);
-    width: 53px;
-    height: 3.5px;
-    border: none;
-    cursor: pointer;
-
-
-
+  background-color: rgb(93, 11, 19);
+  width: 53px;
+  height: 3.5px;
+  border: none;
+  cursor: pointer;
 }
 
 .seta-videos,
 .seta2-videos {
-    cursor: pointer;
-    color: rgb(187, 16, 32);
-    background: transparent;
-    border: none;
-    font-size: 35px;
+  cursor: pointer;
+  color: rgb(187, 16, 32);
+  background: transparent;
+  border: none;
+  font-size: 35px;
 }
-
-
-
-
-
-
-
-
 
 .caixa-combate {
-    display: none;
+  display: none;
 }
 
-
-
-
-
 .video-combate {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-combate-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
-
 .botao-video-combate {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-combate {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
 }
 
 .play-VideoCombate {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoCombate i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoCombate {
-    margin-left: 163px;
-    height: 485px;
-    width: 862px;
+  margin-left: 163px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-combate {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-combate h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 155px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 155px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-combate h2 {
-    font-size: 34px;
-    margin-left: 155px;
-    color: white;
+  font-size: 34px;
+  margin-left: 155px;
+  color: white;
 }
 
 .texto-combate p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 155px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 155px;
 }
-
 
 .video-combate video {
-    position: absolute;
+  position: absolute;
 
-    height: 485px;
-
+  height: 485px;
 }
-
-
-
 
 .caixa-faca {
-    display: none;
+  display: none;
 }
 
-
-
-
-
 .video-faca {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-faca-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
-
 .botao-video-faca {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-faca {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
 }
 
 .play-VideoFaca {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoFaca i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoFaca {
-    margin-left: 169px;
-    height: 485px;
-    width: 862px;
+  margin-left: 169px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-faca {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-faca h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 155px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 155px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-faca h2 {
-    font-size: 34px;
-    margin-left: 155px;
-    color: white;
+  font-size: 34px;
+  margin-left: 155px;
+  color: white;
 }
 
 .texto-faca p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 155px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 155px;
 }
-
 
 .video-faca video {
-    position: absolute;
-    height: 485px;
-
+  position: absolute;
+  height: 485px;
 }
 
-
-
-
-
-
-
 .video-maleta {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-maleta-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
-
 .botao-video-maleta {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-maleta {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-    color: white;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
+  color: white;
 }
 
 .play-VideoMaleta {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoMaleta i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoMaleta {
-    height: 485px;
-    width: 862px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-maleta {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-maleta h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 135px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 135px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-maleta h2 {
-    font-size: 34px;
-    margin-left: 135px;
-    color: white;
+  font-size: 34px;
+  margin-left: 135px;
+  color: white;
 }
 
 .texto-maleta p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 135px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 135px;
 }
-
 
 .video-maleta video {
-    position: absolute;
+  position: absolute;
 
-    height: 485px;
-
+  height: 485px;
 }
 
-
 .botoes4-videos {
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-    position: relative;
-    left: 1080px;
-    justify-content: center;
-    height: 50px;
-    width: 300px;
-    gap: 15px;
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  position: relative;
+  left: 1080px;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  gap: 15px;
 }
 
 .botoes5-videos,
 .botoes6-videos,
 .botoes7-videos,
 .botoes8-videos {
-    background-color: rgb(93, 11, 19);
-    width: 53px;
-    height: 3.5px;
-    border: none;
-    cursor: pointer;
-
-
-
+  background-color: rgb(93, 11, 19);
+  width: 53px;
+  height: 3.5px;
+  border: none;
+  cursor: pointer;
 }
 
 .seta3-videos,
 .seta4-videos {
-    cursor: pointer;
-    color: rgb(187, 16, 32);
-    background: transparent;
-    border: none;
-    font-size: 35px;
+  cursor: pointer;
+  color: rgb(187, 16, 32);
+  background: transparent;
+  border: none;
+  font-size: 35px;
 }
-
-
-
 
 .caixa-criação {
-    display: none;
-
-
-
-
+  display: none;
 }
 
-
-
-
-
 .video-criação {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-criação-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
-
 .botao-video-criação {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-criação {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-    color: white;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
+  color: white;
 }
 
 .play-VideoCriação {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoCriação i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoCriação {
-    height: 485px;
-    width: 862px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-criação {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-criação h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 135px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 135px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-criação h2 {
-    font-size: 34px;
-    margin-left: 135px;
-    color: white;
+  font-size: 34px;
+  margin-left: 135px;
+  color: white;
 }
 
 .texto-criação p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 135px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 135px;
 }
-
 
 .video-criação video {
-    position: absolute;
+  position: absolute;
 
-    height: 485px;
-
+  height: 485px;
 }
-
-
-
 
 .caixa-mercador {
-    display: none;
-
-
-
-
-
+  display: none;
 }
 
-
-
-
-
 .video-mercador {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-mercador-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
-
 .botao-video-mercador {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-mercador {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-    color: white;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
+  color: white;
 }
 
 .play-VideoMercador {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoMercador i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoMercador {
-    height: 485px;
-    width: 862px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-mercador {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-mercador h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 135px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 135px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-mercador h2 {
-    font-size: 34px;
-    margin-left: 135px;
-    color: white;
+  font-size: 34px;
+  margin-left: 135px;
+  color: white;
 }
 
 .texto-mercador p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 135px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 135px;
 }
-
 
 .video-mercador video {
-    position: absolute;
+  position: absolute;
 
-    height: 485px;
-
+  height: 485px;
 }
-
-
 
 .caixa-negociação {
-    display: none;
-
-
-
-
-
-
+  display: none;
 }
 
-
-
-
-
 .video-negociação {
-    display: flex;
-    margin-top: 74px;
-    border-top: 1px solid rgb(187, 16, 32);
-
-
+  display: flex;
+  margin-top: 74px;
+  border-top: 1px solid rgb(187, 16, 32);
 }
 
 .thumb-negociação-video {
-    position: absolute;
-    height: 485px;
-    width: 862px;
-    object-fit: cover;
-
-
-
+  position: absolute;
+  height: 485px;
+  width: 862px;
+  object-fit: cover;
 }
 
-
 .botao-video-negociação {
-    position: relative;
-    display: flex;
-    align-items: center;
-    top: 386px;
-    left: 40px;
-
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 386px;
+  left: 40px;
 }
 
 .Preview-video-negociação {
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 18px;
-    position: relative;
-    left: 87px;
-    color: white;
-
-
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  position: relative;
+  left: 87px;
+  color: white;
 }
 
 .play-VideoNegociação {
-    border: none;
-    background-color: rgb(187, 16, 32);
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-
+  border: none;
+  background-color: rgb(187, 16, 32);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
 .play-VideoNegociação i {
-    position: absolute;
+  position: absolute;
 }
 
-
 .videoNegociação {
-    height: 485px;
-    width: 862px;
+  height: 485px;
+  width: 862px;
 }
 
 .texto-negociação {
-    justify-content: center;
-    margin-top: 20px;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 
 .texto-negociação h1 {
-    font-size: 40px;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    margin-left: 135px;
-    color: rgb(187, 16, 32);
+  font-size: 40px;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  margin-left: 135px;
+  color: rgb(187, 16, 32);
 }
 
-
-
-
 .texto-negociação h2 {
-    font-size: 34px;
-    margin-left: 135px;
-    color: white;
+  font-size: 34px;
+  margin-left: 135px;
+  color: white;
 }
 
 .texto-negociação p {
-    margin-top: 14px;
-    line-height: 2;
-    color: white;
-    margin-left: 135px;
+  margin-top: 14px;
+  line-height: 2;
+  color: white;
+  margin-left: 135px;
 }
 
-
 .video-negociação video {
-    position: absolute;
+  position: absolute;
 
-    height: 485px;
-
+  height: 485px;
 }
 
 .ConteudoBaixavel {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .titulo-conteudoBaixavel {
-    margin-left: 155px;
-    display: flex;
-    align-items: center;
-
+  margin-left: 155px;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-conteudoBaixavel h1 {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 60px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 60px;
 }
 
 .texto-ConteudoBaixavel {
-    height: 160px;
-    width: 880px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 160px;
+  width: 880px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    margin-left: 20px;
+  margin-left: 20px;
 
-    border-left: 1px solid white;
-    color: white;
-    line-height: 2;
-
-
+  border-left: 1px solid white;
+  color: white;
+  line-height: 2;
 }
 
 .conteudo-separate {
+  display: flex;
+  background-image: url(../imagens/separateways_bg.png);
+  background-size: 100%;
 
-    display: flex;
-    background-image: url(../imagens/separateways_bg.png);
-    background-size: 100%;
+  background-repeat: no-repeat;
 
+  background-color: #101010c6;
+  border-bottom: 1px solid rgb(187, 16, 32);
 
-    background-repeat: no-repeat;
-
-    background-color: #101010c6;
-    border-bottom: 1px solid rgb(187, 16, 32);
-
-    margin-top: 40px;
-    padding: 65px;
-
+  margin-top: 40px;
+  padding: 65px;
 }
-
-
 
 .caixa-separate {
-    color: #333;
-    display: flex;
-    flex-direction: column;
+  color: #333;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .imagem-separate {
-    display: flex;
-    margin-top: 18px;
+  display: flex;
+  margin-top: 18px;
 }
-
-
 
 .imagem-separate1 {
-    height: 480px;  
+  height: 480px;
 }
-
-
 
 .imagemSeparate2 {
-    height: 480px;
+  height: 480px;
 }
-
-
 
 .imagemSeparate3 {
-    height: 480px;
+  height: 480px;
 }
-
-
 
 .texto-missao {
-
-    padding: 50px;
+  padding: 50px;
 }
 
-
-
-
 .dlc-pago {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    border-top: 1px solid rgb(187, 16, 32);
-    border-bottom: 1px solid rgb(187, 16, 32);
-    font-size: 40px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  border-top: 1px solid rgb(187, 16, 32);
+  border-bottom: 1px solid rgb(187, 16, 32);
+  font-size: 40px;
 
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    width: 325px;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 325px;
 }
 
 .logo-separate {
-    margin-top: 100px;
-
+  margin-top: 100px;
 }
 
-
-
 .titulo-missao {
-    font-size: 40px;
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
+  font-size: 40px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
 
 .paragrafo-missao {
-    color: white;
-    line-height: 2;
+  color: white;
+  line-height: 2;
 }
 
-
-
 .texto-separate {
-    color: white;
-    margin-top: 60px;
-    font-size: 20px;
+  color: white;
+  margin-top: 60px;
+  font-size: 20px;
 }
 
 .texto2 {
-    margin-top: 40px;
-    line-height: 1.7;
-
-
+  margin-top: 40px;
+  line-height: 1.7;
 }
 
 .imagem-separate-2 {
-    margin-top: 70px;
-    display: flex;
-
-
-
-
-
-
+  margin-top: 70px;
+  display: flex;
 }
 
 .imagem-separate2 {
-
-    height: 480px;
-
-
+  height: 480px;
 }
 
-
 .texto-jogabilidade-separate {
-    padding: 67px;
+  padding: 67px;
 }
 
 .titulo-jogabilidade-separate {
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    font-size: 40px;
-
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  font-size: 40px;
 }
 
 .texto-jogabilidade-separate h2 {
-    color: white;
-    font-size: 40px;
+  color: white;
+  font-size: 40px;
 }
 
 .paragrafo-jogabilidade {
-    color: white;
-    margin-top: 20px;
-    line-height: 1.7;
+  color: white;
+  margin-top: 20px;
+  line-height: 1.7;
 }
-
 
 .conteudo-mercenarios {
+  display: flex;
+  background-image: url(../imagens/mercenaries_bg.png);
+  background-size: 100%;
 
-    display: flex;
-    background-image: url(../imagens/mercenaries_bg.png);
-    background-size: 100%;
+  background-repeat: no-repeat;
 
+  background-color: #101010c6;
+  border-bottom: 1px solid rgb(187, 16, 32);
 
-    background-repeat: no-repeat;
-
-    background-color: #101010c6;
-    border-bottom: 1px solid rgb(187, 16, 32);
-
-    margin-top: 100px;
-    padding: 65px;
-
+  margin-top: 100px;
+  padding: 65px;
 }
 
-
-
-
-
-
-
-
 .caixa-mercenarios {
+  color: #333;
 
-    color: #333;
-
-    display: flex;
-    flex-direction: column;
-
-
-
+  display: flex;
+  flex-direction: column;
 }
 
 .imagem-mercenarios {
-
-    display: flex;
-    margin-top: 65px;
-
-
-
+  display: flex;
+  margin-top: 65px;
 }
 
-
-
 .imagem-mercenarios1 {
-
-    height: 480px;
-
-
+  height: 480px;
 }
 
 .texto-modo-adicional {
-
-    padding: 50px;
+  padding: 50px;
 }
 
 .texto-modo-adicional h2 {
-    color: white;
-    font-size: 40px;
-
+  color: white;
+  font-size: 40px;
 }
 
-
-
-
 .dlc-gratuito {
-    color: white;
-    font-family: "Teko-Variable";
-    font-weight: normal;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    font-size: 40px;
+  color: white;
+  font-family: "Teko-Variable";
+  font-weight: normal;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  font-size: 40px;
 
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
-    width: 325px;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 325px;
 }
 
 .logo-mercenarios {
-    margin-top: 100px;
-
+  margin-top: 100px;
 }
-
-
 
 .titulo-modo-adicional {
-    font-size: 40px;
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
+  font-size: 40px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
-
-
 
 .paragrafo-titulo-adicional {
-    color: white;
-    margin-top: 20px;
-    line-height: 1.7;
+  color: white;
+  margin-top: 20px;
+  line-height: 1.7;
 }
 
-
-
-
-
 .texto-mercenarios {
-    color: white;
-    margin-top: 60px;
-    font-size: 20px;
-    line-height: 1.7;
+  color: white;
+  margin-top: 60px;
+  font-size: 20px;
+  line-height: 1.7;
 }
 
 .personagens-mercenarios {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-
 .titulo-personagens-mercenarios {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .titulo-personagens-mercenarios h1 {
-    font-size: 40px;
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
-
+  font-size: 40px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
 
 .texto-personagens-jogaveis {
-    display: flex;
-    border-left: 1px solid white;
-    margin-left: 15px;
-    width: 210px;
-    height: 35px;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 20px;
+  display: flex;
+  border-left: 1px solid white;
+  margin-left: 15px;
+  width: 210px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
 }
 
-.Personagens-Jogaveis  {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    
-
+.Personagens-Jogaveis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .Personagens-Jogaveis img {
-    height: 350px;
-
+  height: 350px;
 }
 
 .merc-leon {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .merc-leon p {
-    font-size: 17px;
-    font-family: "Teko-Variable";
-    color: white;
+  font-size: 17px;
+  font-family: "Teko-Variable";
+  color: white;
 }
 
 .merc-luis {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .merc-luis p {
-    font-size: 17px;
-    font-family: "Teko-Variable";
-    color: white;
+  font-size: 17px;
+  font-family: "Teko-Variable";
+  color: white;
 }
 
 .merc-krauser {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .merc-krauser p {
-    font-size: 17px;
-    font-family: "Teko-Variable";
-    color: white;
+  font-size: 17px;
+  font-family: "Teko-Variable";
+  color: white;
 }
 
 .merc-hunk {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    
-   
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .merc-hunk p {
-    font-size: 17px;
-    font-family: "Teko-Variable";
-    color: white;
+  font-size: 17px;
+  font-family: "Teko-Variable";
+  color: white;
 }
 
 .merc-ada {
-
-    
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .merc-ada p {
-    font-size: 17px;
-    font-family: "Teko-Variable";
-    color: white;
+  font-size: 17px;
+  font-family: "Teko-Variable";
+  color: white;
 }
 
 .merc-wesker {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-   
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .merc-wesker p {
-    font-size: 17px;
-    font-family: "Teko-Variable";
-    color: white;
+  font-size: 17px;
+  font-family: "Teko-Variable";
+  color: white;
 }
 
 .botoes-merc {
-    display: flex;
-    top: -100px;
-    align-items: center;
-    position: relative;
-    left: 1000px;
-    justify-content: center;
-    height: 50px;
-    width: 300px;
-    gap: 15px;
+  display: flex;
+  top: -100px;
+  align-items: center;
+  position: relative;
+  left: 1000px;
+  justify-content: center;
+  height: 50px;
+  width: 300px;
+  gap: 15px;
 }
 
 .botoes1-merc,
 .botoes2-merc,
 .botoes3-merc {
-    background-color: rgb(93, 11, 19);
-    width: 53px;
-    height: 3.5px;
-    border: none;
-    cursor: pointer;
-
-
-
+  background-color: rgb(93, 11, 19);
+  width: 53px;
+  height: 3.5px;
+  border: none;
+  cursor: pointer;
 }
 
 .seta-merc,
 .seta2-merc {
-    cursor: pointer;
-    color: rgb(187, 16, 32);
-    background: transparent;
-    border: none;
-    font-size: 35px;
+  cursor: pointer;
+  color: rgb(187, 16, 32);
+  background: transparent;
+  border: none;
+  font-size: 35px;
 }
 
 .caixa-oque-é {
-    
 }
-
-
-
 
 .caixa-bonus-de-tempo {
-    display: none;
-    
+  display: none;
 }
-
 
 .caixa-modo-caotico {
-    display: none;
-    
+  display: none;
 }
-
-
-
-
-
-
 
 .imagem-mercenarios2 {
-
-    display: flex;
-    margin-top: 65px;
-
-
-
+  display: flex;
+  margin-top: 65px;
 }
 
-
-
 .imagem-mercenarios3 {
-
-    height: 480px;
-
-
+  height: 480px;
 }
 
 .texto-modo-adicional3 {
-
-    padding: 50px;
+  padding: 50px;
 }
 
 .texto-modo-adicional3 h2 {
-    color: white;
-    font-size: 40px;
-
+  color: white;
+  font-size: 40px;
 }
-
-
-
-
-
-
-
-
-
 
 .titulo-modo-adicional3 {
-    font-size: 40px;
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
+  font-size: 40px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
-
-
 
 .paragrafo-titulo-adicional3 {
-    color: white;
-    margin-top: 20px;
-    line-height: 1.7;
+  color: white;
+  margin-top: 20px;
+  line-height: 1.7;
 }
-
-
-
-
-
-
 
 .imagem-mercenarios4 {
-
-    display: flex;
-    margin-top: 65px;
-
-
-
+  display: flex;
+  margin-top: 65px;
 }
 
-
-
 .imagem-mercenarios5 {
-
-    height: 480px;
-
-
+  height: 480px;
 }
 
 .texto-modo-adicional5 {
-
-    padding: 50px;
+  padding: 50px;
 }
 
 .texto-modo-adicional5 h2 {
-    color: white;
-    font-size: 40px;
-
+  color: white;
+  font-size: 40px;
 }
-
-
-
-
-
-
-
-
-
 
 .titulo-modo-adicional5 {
-    font-size: 40px;
-    color: rgb(187, 16, 32);
-    font-family: "Teko-Variable";
-    font-weight: normal;
+  font-size: 40px;
+  color: rgb(187, 16, 32);
+  font-family: "Teko-Variable";
+  font-weight: normal;
 }
-
-
 
 .paragrafo-titulo-adicional5 {
-    color: white;
-    margin-top: 20px;
-    line-height: 1.7;
+  color: white;
+  margin-top: 20px;
+  line-height: 1.7;
 }
-
-
-
-
-
-
-
-
-
-
-
