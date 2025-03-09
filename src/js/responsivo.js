@@ -1,4 +1,4 @@
-function fotoSobre() {
+function FotoSobre() {
     let fotoSobre = document.querySelector(".leon-and-ashley");
     
     if (window.innerWidth < 768) {
@@ -9,15 +9,15 @@ function fotoSobre() {
     }
   }
 
-  window.addEventListener("resize", fotoSobre);
-window.addEventListener("load", fotoSobre);
+  window.addEventListener("resize", FotoSobre);
+window.addEventListener("load", FotoSobre);
 
 
 
-function fotoHistoria() {
+function FotoHistoria() {
   let fotoHistoria = document.querySelector(".historia");
   
-  if (window.innerWidth < 1000) {
+  if (window.innerWidth < 768) {
     fotoHistoria.src = "./src/imagens/about_bg-story-sp.jpg";
 
   } else {
@@ -25,15 +25,15 @@ function fotoHistoria() {
   }
 }
 
-window.addEventListener("resize", fotoHistoria);
-window.addEventListener("load", fotoHistoria);
+window.addEventListener("resize", FotoHistoria);
+window.addEventListener("load", FotoHistoria);
 
 
 
-function fotoLeonBio() {
+function FotoLeonBio() {
   let fotoLeonBio = document.getElementById("image1");
   
-  if (window.innerWidth < 1000) {
+  if (window.innerWidth < 768) {
     fotoLeonBio.src = "./src/imagens/leon-biography-responsivo.jpg";
 
   } else {
@@ -41,11 +41,11 @@ function fotoLeonBio() {
   }
 }
 
-window.addEventListener("resize", fotoLeonBio);
-window.addEventListener("load", fotoLeonBio);
+window.addEventListener("resize", FotoLeonBio);
+window.addEventListener("load", FotoLeonBio);
 
 
-function fotoLeonBio() {
+function FotoLeonBio() {
   let fotoLeonBio = document.getElementById("image1");
   let fotoLeonBio2 = document.getElementById("image2");
   
@@ -59,9 +59,7 @@ function fotoLeonBio() {
   }
 }
 
-window.addEventListener("resize", fotoLeonBio);
-window.addEventListener("load", fotoLeonBio);
-window.addEventListener("resize", fotoLeonBio2);
-window.addEventListener("load", fotoLeonBio2);
+window.addEventListener("resize", FotoLeonBio);
+window.addEventListener("load", FotoLeonBio);
 
 
