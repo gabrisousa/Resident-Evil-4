@@ -29,3 +29,18 @@ window.addEventListener("load", fotoSobre);
 // window.addEventListener("load", fotoHistoria);
 
 
+
+// function fotoLeonBio() {
+//   let fotoLeonBio = document.getElementById("image1");
+  
+//   if (window.innerWidth < 1000) {
+//     fotoLeonBio.src = "./src/imagens/leon-biography-responsivo.jpg";
+
+//   } else {
+//     fotoLeonBio.src = "./src/imagens/leon-biography.jpg";
+//   }
+// }
+
+// window.addEventListener("resize", fotoLeonBio);
+// window.addEventListener("load", fotoLeonBio);
+

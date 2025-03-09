@@ -240,9 +240,7 @@
     }
 
     .personagens {
-        
         margin-top: 910px;
-        
         display: flex;
         flex-direction: column;
     }
@@ -264,6 +262,45 @@
         height: 50px;
         width: 100px;
     }
+
+    #image1 {
+        height: 457px;
+        
+    }
+
+    #image2 {
+        height: 457px;
+        
+        
+        
+        
+
+
+    }
+
+    .leon-biography {
+        background-color: rgb(12, 19, 20);
+        margin-top: 30px;
+        height: 650px;
+        
+    }
+
+    
+
+    .biografia {
+        width: 414px;
+        
+        top: 5330px;
+        left: 211px;
+
+    }
+
+    .biografia h1 {
+        font-size: 60px;
+    }
+        
+
+
 
     
 
