@@ -1,7 +1,7 @@
 function fotoSobre() {
     let fotoSobre = document.querySelector(".leon-and-ashley");
     
-    if (window.innerWidth < 1000) {
+    if (window.innerWidth < 768) {
       fotoSobre.src = "./src/imagens/about_bg-about-sp.jpg";
 
     } else {

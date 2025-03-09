@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
     * {
         padding: 0;
@@ -291,7 +291,7 @@
         width: 414px;
         
         top: 5330px;
-        left: 211px;
+        left: 30px;
 
     }
 
