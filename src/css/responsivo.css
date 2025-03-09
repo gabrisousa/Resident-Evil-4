@@ -234,7 +234,7 @@
     
 
     .historia {
-        background-color: red;
+       
         top: 0;
         height: 361px;
     }
@@ -242,7 +242,7 @@
     .personagens {
         
         margin-top: 910px;
-        background-color: blue;
+        
         display: flex;
         flex-direction: column;
     }
@@ -256,7 +256,6 @@
 
     .personagem {
         right: 0;
-        background-color: red;
         width: 412px;
         height: 272px;
     }
