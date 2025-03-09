@@ -44,3 +44,24 @@ function fotoLeonBio() {
 window.addEventListener("resize", fotoLeonBio);
 window.addEventListener("load", fotoLeonBio);
 
+
+function fotoLeonBio() {
+  let fotoLeonBio = document.getElementById("image1");
+  let fotoLeonBio2 = document.getElementById("image2");
+  
+  if (window.innerWidth < 768) {
+    fotoLeonBio.src = "./src/imagens/leon-biography-responsivo.jpg";
+    fotoLeonBio2.src = "./src/imagens/leon-biography2-responsivo.jpg";
+
+  } else {
+    fotoLeonBio.src = "./src/imagens/leon-biography.jpg";
+    fotoLeonBio2.src = "./src/imagens/leon-biography2.jpg";
+  }
+}
+
+window.addEventListener("resize", fotoLeonBio);
+window.addEventListener("load", fotoLeonBio);
+window.addEventListener("resize", fotoLeonBio2);
+window.addEventListener("load", fotoLeonBio2);
+
+
